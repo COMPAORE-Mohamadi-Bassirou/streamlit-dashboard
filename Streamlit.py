@@ -3,7 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Chemin local vers le fichier Excel
-local_file_path = "C:/Users/user/Desktop/ISE2/Mously/projet1/donnees_imputees_knn_mondial.xlsx"
+local_file_path = "donnees_imputees_knn_mondial.xlsx"
 
 # Fonction pour charger les données des feuilles Excel en DataFrames
 @st.cache_data
